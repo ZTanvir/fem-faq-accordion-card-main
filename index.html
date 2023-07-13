@@ -12,9 +12,20 @@
 <body>
     <main>
         <section class="faq-images">
-            <div class="faq-images-box"></div>
-            <div class="faq-images-humans"></div>
-            <div class="faq-images-human-shadow"></div>
+            <picture class="faq-images-box">
+                <source media="(min-width:769px)" srcset="./images/illustration-box-desktop.svg">
+                <img src="./images/illustration-box-desktop.svg" alt="orange box">
+            </picture>
+            <picture class="faq-images-humans">
+                <source media="(max-width:1024px)" srcset="./images/illustration-woman-online-desktop.svg" alt="human illustrator using computer">
+                <source media="(max-width:768px)" srcset="./images/illustration-woman-online-mobile.svg" alt="human illustrator using computer">
+                <img src="./images/illustration-woman-online-desktop.svg" alt="human illustrator using computer" >
+            </picture>
+            <picture class="faq-images-human-shadow">
+                <source media="(max-width:1024px)" srcset="./images/bg-pattern-desktop.svg" alt="A square shaped shadow">
+                <source media="(max-width:768px)" srcset="./images/bg-pattern-mobile.svg" alt="A square shaped shadow">
+                <img src="./images/bg-pattern-desktop.svg" alt="A square shaped shadow" >
+            </picture>
         </section>
         <section class="faq">
             <h2 class="faq-title">FAQ</h2>

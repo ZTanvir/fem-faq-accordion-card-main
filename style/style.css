@@ -74,6 +74,7 @@ h6 {
   --cc-dark-grayish-blue: hsl(237, 12%, 33%);
   --cc-grayish-blue: hsl(240, 6%, 50%);
   --cc-light-grayish-blue: hsl(240, 5%, 91%);
+  --cc-white: white;
 }
 
 body {
@@ -87,4 +88,5 @@ body {
 
 main {
   max-width: 75%;
+  background-color: var(--cc-white);
 }
