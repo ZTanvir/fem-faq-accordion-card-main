@@ -93,4 +93,24 @@ main {
   justify-content: center;
   align-items: center;
   border-radius: 1rem;
+  padding: 5rem 0rem;
+}
+
+.faq-images {
+  flex: 1;
+  position: relative;
+}
+
+.faq-images-box {
+  position: absolute;
+}
+
+.faq-images-human-shadow {
+  position: absolute;
+  left: -95px;
+  top: -82px;
+}
+
+.faq {
+  flex: 1;
 }
