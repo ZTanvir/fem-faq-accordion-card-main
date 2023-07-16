@@ -89,20 +89,30 @@ body {
 main {
   max-width: 75%;
   background-color: var(--cc-white);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
   border-radius: 1rem;
   padding: 5rem 0rem;
 }
 
 .faq-images {
-  flex: 1;
   position: relative;
+  justify-self: start;
+  left: 10px;
+  overflow: none;
 }
 
 .faq-images-box {
   position: absolute;
+  left: -102px;
+  top: 145px;
+  z-index: 1;
+}
+
+.faq-images-humans {
+  position: relative;
+  left: -50px;
 }
 
 .faq-images-human-shadow {
@@ -111,6 +121,37 @@ main {
   top: -82px;
 }
 
-.faq {
-  flex: 1;
+.faq {}
+
+@media only screen and (max-width:768px) {
+  main {
+    background-color: burlywood;
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+
+
+  .faq-images {
+    position: absolute;
+    width: 100%;
+    justify-items: center;
+    top: -12.7rem;
+  }
+
+  .faq-images-humans {
+    position: static;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .faq-images-box {
+    position: static;
+    display: none;
+  }
+
+  .faq-images-human-shadow {
+    position: relative;
+    left: 0rem;
+    top: -5rem;
+  }
 }
