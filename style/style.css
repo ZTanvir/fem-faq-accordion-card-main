@@ -127,7 +127,27 @@ main {
 
 .faq-title {
   margin-bottom: 2rem;
+  font-size: 1.875rem;
 }
+
+:is(.faq-question-team, .faq-question-file, .faq-question-password, .faq-question-subscription, .faq-question-support) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid hsla(240, 6%, 50%, 0.2);
+  padding: 1rem 0rem;
+}
+
+.faq-question>div>p:hover,
+.faq-question>div>p:focus {
+  color: var(--cc-soft-red);
+  cursor: pointer;
+}
+
+.faq-question img {
+  width: 1rem;
+}
+
 
 @media only screen and (max-width:768px) {
   main {
