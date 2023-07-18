@@ -154,6 +154,7 @@ main {
     background-color: burlywood;
     grid-template-columns: 1fr;
     position: relative;
+    font-size: 0.75rem;
   }
 
 
@@ -179,5 +180,9 @@ main {
     position: relative;
     left: 0rem;
     top: -5rem;
+  }
+
+  .faq {
+    padding: 4rem;
   }
 }
