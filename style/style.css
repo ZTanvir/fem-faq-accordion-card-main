@@ -115,12 +115,6 @@ main {
   left: -50px;
 }
 
-.faq-images-human-shadow {
-  position: absolute;
-  left: -95px;
-  top: -82px;
-}
-
 .faq {
   padding-right: 2rem;
   width: 368px;
@@ -134,8 +128,6 @@ main {
   margin-bottom: 2rem;
   font-size: 1.875rem;
 }
-
-.faq-questions {}
 
 :is(.faq-question-team, .faq-question-file, .faq-question-password, .faq-question-subscription, .faq-question-support) {
   display: flex;
@@ -188,12 +180,6 @@ main {
   .faq-images-box {
     position: static;
     display: none;
-  }
-
-  .faq-images-human-shadow {
-    position: relative;
-    left: 0rem;
-    top: -5rem;
   }
 
   .faq {
