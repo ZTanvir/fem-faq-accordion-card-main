@@ -2,8 +2,8 @@ const FAQ_QUESTIONS = document.querySelectorAll(".faq-question");
 
 let FAQ_QUESTIONS_ARRAY = [...FAQ_QUESTIONS];
 
-FAQ_QUESTIONS_ARRAY.forEach((qstn) => {
-  qstn.addEventListener("click", (e) => {
+FAQ_QUESTIONS_ARRAY.forEach((faqQstn) => {
+  faqQstn.addEventListener("click", (e) => {
     const ELEMENT = e.target.parentElement.nextElementSibling;
     console.log(ELEMENT);
 
