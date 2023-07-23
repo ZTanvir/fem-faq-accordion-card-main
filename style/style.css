@@ -84,6 +84,7 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
+  font-family: var(--ff-kumbh, sans-serif);
 }
 
 main {
@@ -144,6 +145,10 @@ main {
   padding: 1rem 0rem;
 }
 
+:is(.faq-answer-team, .faq-answer-file, .faq-answer-password, .faq-answer-subscription, .faq-answer-support) {
+  opacity: 0.7;
+}
+
 /* Faq questions */
 .faq-question>div>p:hover,
 .faq-question>div>p:focus {
@@ -159,6 +164,16 @@ main {
 /* Hide qa answer */
 .hide-qa-answer {
   display: none;
+}
+
+/* Bold question text */
+.bold-faq-question {
+  font-weight: 700;
+}
+
+/* Rotate faq question arrow */
+.rotate-question-arrow {
+  transform: rotate(180deg);
 }
 
 @media only screen and (max-width:768px) {
