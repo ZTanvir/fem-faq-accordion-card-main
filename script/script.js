@@ -8,10 +8,6 @@ FAQ_QUESTIONS_ARRAY.forEach((faqQstn) => {
     const QUESTION = e.target.parentElement.firstElementChild;
     const ARROWIMAGE = e.target.parentElement.lastElementChild;
 
-    console.log(ARROWIMAGE);
-
-    console.log(ELEMENT);
-
     // Check if the user click on the faq question or faq arrow key
     if (ELEMENT.classList.contains("faq-answer")) {
       ELEMENT.classList.toggle("hide-qa-answer");
