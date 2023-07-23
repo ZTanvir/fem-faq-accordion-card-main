@@ -94,14 +94,16 @@ main {
   place-items: center;
   border-radius: 1rem;
   padding: 5rem 0rem;
-  background-image: url(../images/bg-pattern-desktop.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .faq-images {
   position: relative;
   justify-self: start;
+  /* Background Pattern */
+  /* background-image: url(../images/bg-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; */
 }
 
 .faq-images-box {
@@ -179,13 +181,21 @@ main {
     margin: 0 auto;
   }
 
+  /* Prople image shadow */
+  /* .faq-images-humans::after {
+    background-image: url(../images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    height: 100px;
+  } */
+
   .faq-images-box {
     position: static;
     display: none;
   }
 
   .faq {
-    padding: 4rem;
+    padding: 4rem 2rem 0rem 2rem;
+    height: unset;
   }
 
   .faq-title {
