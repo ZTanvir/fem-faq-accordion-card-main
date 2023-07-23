@@ -132,12 +132,15 @@ main {
   font-size: 1.875rem;
 }
 
+.faq-question {
+  border-bottom: 1.5px solid hsla(240, 6%, 50%, 0.2);
+}
+
 :is(.faq-question-team, .faq-question-file, .faq-question-password, .faq-question-subscription, .faq-question-support) {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  border-bottom: 1.5px solid hsla(240, 6%, 50%, 0.2);
   padding: 1rem 0rem;
 }
 

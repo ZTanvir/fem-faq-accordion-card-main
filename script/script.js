@@ -10,6 +10,7 @@ FAQ_QUESTIONS_ARRAY.forEach((faqQstn) => {
     // Check if the user click on the faq question or faq arrow key
     if (ELEMENT.classList.contains("faq-answer")) {
       ELEMENT.classList.toggle("hide-qa-answer");
+      ELEMENT.style.opacity = "0.7";
     }
   });
 });
