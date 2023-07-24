@@ -110,8 +110,27 @@ main {
 .faq-images-box {
   position: absolute;
   left: -102px;
-  top: 145px;
+  top: 120px;
   z-index: 1;
+  animation-name: jumpbox;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes jumpbox {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-25px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .faq-images-humans {
