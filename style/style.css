@@ -183,6 +183,10 @@ main {
     grid-template-columns: 1fr;
     position: relative;
     font-size: 0.75rem;
+    background-image: url(../images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 0px;
+    background-size: 90%;
   }
 
 
