@@ -222,13 +222,6 @@ main {
     margin: 0 auto;
   }
 
-  /* Prople image shadow */
-  /* .faq-images-humans::after {
-    background-image: url(../images/bg-pattern-mobile.svg);
-    background-repeat: no-repeat;
-    height: 100px;
-  } */
-
   .faq-images-box {
     position: static;
     display: none;
